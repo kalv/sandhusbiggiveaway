@@ -34,8 +34,6 @@ a, a:visited {
   border-bottom:1px solid #000;
 }
 
-
-
 h1, h2, h3 {
   font-family: 'Droid Serif', serif;
   font-style:italic;
@@ -79,4 +77,18 @@ h2 {
 .items li .details {
   float:left;
   width:79%;
+}
+
+.taken {
+  position:absolute;
+  background-color:#fff;
+  width:720px;
+  margin-top:50px;
+  padding: 10px;
+  text-align:center;
+}
+
+.taken h3 {
+  color:#111;
+  text-shadow: #f1f1f1 1px 1px 1px;
 }
