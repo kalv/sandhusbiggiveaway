@@ -1,0 +1,82 @@
+body, html, h1, h2, h3, p, ul, li, a {
+  padding:0;
+  margin:0;
+}
+body {
+  background: url("/images/bg.png");
+  background-color: #d10000;
+  color:#fff;
+}
+
+ul {
+  list-style:none;
+}
+
+.container {
+  width:900px;
+  margin: 0 auto;
+  font-family: 'Droid Serif', serif;
+  font-size:15px;
+  text-shadow: #111 1px 1px 2px;
+  padding-bottom:50px;
+}
+
+a, a:visited {
+  color:#fff;
+  text-decoration:none;
+}
+
+.content a {
+  border-bottom:1px solid #ddd;
+}
+
+.content a:hover {
+  border-bottom:1px solid #000;
+}
+
+
+
+h1, h2, h3 {
+  font-family: 'Droid Serif', serif;
+  font-style:italic;
+  text-shadow: #5e0101 1px 1px 4px;
+}
+
+h1 {
+  padding:20px 0px;
+  font-size:48px;
+}
+
+p {
+  line-height: 1.7em;
+}
+.contact_details {
+  margin-top:10px;
+  padding-left:40px;
+  line-height: 1.7em;
+}
+
+h2 {
+  margin-top:20px;
+  padding:10px 0px;
+}
+
+.items {
+  width:80%;
+  margin:0 auto;
+}
+
+.items li {
+  margin-bottom:10px;
+  height:150px;
+}
+
+.items li .thumbnail {
+  float:left;
+  width:21%;
+}
+
+.items li .details {
+  float:left;
+  width:79%;
+}
